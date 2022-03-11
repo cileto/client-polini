@@ -48,7 +48,7 @@
 	<!-- =========================
 		TOP MAIN NAVBAR
 	============================== -->
-	<div class="main-navbar main-navbar-1">
+	<div class="main-navbar main-navbar-1" id="main-navbar">
 		<div class="container">
 			<div class="row">
                  
@@ -56,10 +56,7 @@
 				 
 				<div class="logo" id="main-logo">
 					<div class="logo-image">
-						<img src="img/logo.png" alt="" />
-					</div>
-					<div class="logo-text">
-						Trans <span class="color-primary">Aero</span>
+						<img src="img/logo.png" alt="Logo" />
 					</div>
 				</div>
 				 
@@ -69,29 +66,6 @@
 					<form>
 						<input type="text" id="main-search" name="main-search" placeholder="Try and type enter..." />
 					</form>
-				</div>
-				 
-				<div class="search-control">
-					<!-- === top search button show === -->
-					<a id="show-search" class="show-search latest" href="#">
-						<div class="my-btn my-btn-primary">
-                            <div class="my-btn-bg-top"></div>
-                            <div class="my-btn-bg-bottom"></div>
-                            <div class="my-btn-text">
-                                <i class="fa fa-search"></i>
-                            </div>
-						</div>
-					</a>
-					<!-- === top search button close === -->
-					<a id="close-search" class="close-search latest" href="#">
-						<div class="my-btn my-btn-primary">
-							<div class="my-btn-bg-top"></div>
-							<div class="my-btn-bg-bottom"></div>
-							<div class="my-btn-text">
-								<i class="fa fa-close"></i>
-							</div>
-						</div>
-					</a>
 				</div>
 				
 				<div class="show-menu-control">
@@ -113,74 +87,27 @@
 					<ul class="nav navbar-nav">
 											
 						<!-- === top menu item === -->
-						<li class="dropdown">
-							<a data-toggle="dropdown" href="#">Home</a>
-							<ul class="dropdown-menu" role="menu">
-								<li>
-									<a href="index.html">Home 1</a>
-								</li>
-								<li>
-									<a href="02_home.html">Home 2</a>
-								</li>
-							</ul>
-						</li>
-						<li class="main-menu-separator"></li>
-						<!-- === top menu item === -->
-						<li class="dropdown">
-							<a data-toggle="dropdown" href="#">Service</a>
-							<ul class="dropdown-menu" role="menu">
-								<li>
-									<a href="03_services.html">Service 1</a>
-								</li>
-								<li>
-									<a href="04_services.html">Service 2</a>
-								</li>
-								<li>
-									<a href="05_service_detail.html">Service Details</a>
-								</li>
-							</ul>
+						<li>
+							<a href="index.html">Inicio</a>
 						</li>
 						<li class="main-menu-separator"></li>
 						<!-- === top menu item === -->
 						<li>
-							<a href="06_about.html">About us</a>
+							<a href="index.html">Servicios</a>
+						</li>
+						<!-- === top menu item === -->
+						<li>
+							<a href="03_services.html">Productos</a>
+						</li>
+						<li class="main-menu-separator"></li>
+						<!-- === top menu item === -->
+						<li>
+							<a href="06_about.html">Acerca</a>
 						</li> 
 						<li class="main-menu-separator"></li>
 						<!-- === top menu item === -->
-						<li class="dropdown">
-							<a data-toggle="dropdown" href="#">Elements</a>
-							<ul class="dropdown-menu" role="menu">
-								<li>
-									<a href="07_typography.html">Typography</a>
-								</li>
-								<li>
-									<a href="08_buttons.html">Buttons</a>
-								</li>
-								<li>
-									<a href="09_progress.html">Progress Bars</a>
-								</li>
-								<li>
-									<a href="10_alerts.html">Alerts</a>
-								</li>
-							</ul>
-						</li> 
-						<li class="main-menu-separator"></li>
-						<!-- === top menu item === -->
-						<li class="dropdown">
-							<a data-toggle="dropdown" href="#">Blog</a>
-							<ul class="dropdown-menu" role="menu">
-								<li>
-									<a href="11_blog.html">Blog items</a>
-								</li>
-								<li>
-									<a href="12_blog_detail.html">Single Post</a>
-								</li>
-							</ul>
-						</li> 
-						<li class="main-menu-separator"></li>
-						<!-- === top menu item === -->
-						<li class="active">
-							<a class="latest" href="13_contacts.html">Contacts</a>
+						<li >
+							<a class="latest" href="13_contacts.html">Contacto</a>
 						</li>
 					</ul>
 				</div>
@@ -204,29 +131,9 @@
 				
 				<!-- === PAGE HEADER TITLE === -->
 				<div class="page-header-title">
-					<h2>CONTACTS</h2>
+					<h2>CONTACTO</h2>
 				</div>
 				
-				<!-- === PAGE HEADER BREADCRUMB === -->
-				<div class="page-header-breadcrumb">
-					<ol class="breadcrumb">
-						<li><a href="index.html">Home</a></li>
-						<li class="active">CONTACTS</li>
-					</ol>
-				</div>
-				
-				<!-- === PAGE HEADER BUTTON === -->
-				<div class="page-header-button">
-					<a href="#">
-						<div class="my-btn my-btn-primary">
-							<div class="my-btn-bg-top"></div>
-							<div class="my-btn-bg-bottom"></div>
-							<div class="my-btn-text">
-								GET A FREE QUOTE
-							</div>
-						</div>
-					</a>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -248,22 +155,11 @@
 							<div class="contacts-info-title-icon">
 								<i class="fa fa-comments"></i>
 							</div>
-							<h3>We will be glad<br>to help you</h3>
+							<h4>Estaremos encantados<br>de ayudarte</h4>
 						</div>
 						<div class="contacts-info-text">
-							Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. 
-							Nam quam nunc, blandit vel, luctus pulvinar. 
-						</div>
-						<div class="contacts-info-people">
-							<div class="contacts-info-people-avatar">
-								<img src="media/avatars/avatar1.png" alt="" />
-							</div>
-							<div class="contacts-info-people-name">
-								RICHARD GEAR
-							</div>
-							<div class="contacts-info-people-company">
-								Director
-							</div>
+							Para mayor información o cotizaciones de acuerdo a sus necesidades, por favor contactarnos, 
+							¡será un gusto poder atenderles!
 						</div>
 					</div>
 				</div>
@@ -319,10 +215,11 @@
 						<i class="flaticon-map58"></i>
 					</div>
 					<div class="contact-detail-title">
-						<h3>LOCATION</h3>
+						<h3>UBICACIÓN</h3>
 					</div>
 					<div class="contact-detail-text">
-						McLean Drive , Los Angeles,<br>California VA 22108
+						100 metros Sur de La Rotonda de Las Garantías Sociales (5,19 km)
+						Zapote, San José Province, Costa Rica
 					</div>
 				</div>
 				
@@ -332,10 +229,10 @@
 						<i class="flaticon-telephone5"></i>
 					</div>
 					<div class="contact-detail-title">
-						<h3>PHONE | EMAIL</h3>
+						<h3>TELEFONO | EMAIL</h3>
 					</div>
 					<div class="contact-detail-text">
-						+ 390 12 345 6789<br>info@domain.com
+						+506 2224 4779<br>servicio@romanaspolini.com
 					</div>
 				</div>
 				
@@ -345,10 +242,10 @@
 						<i class="flaticon-clock96"></i>
 					</div>
 					<div class="contact-detail-title">
-						<h3>WORKING HOURS</h3>
+						<h3>HORA DE ATENCIÓN</h3>
 					</div>
 					<div class="contact-detail-text">
-						Mon - Fri : 08.00 17.00<br>Sat : 09.00  14.00
+						Horario: 07:30 - 18:00
 					</div>
 				</div>
 			
@@ -362,52 +259,13 @@
 	
 	<!-- =========================
 		CONTACTS MAP
-	============================== -->
+	============================== 
     <div class="contact-map" id="contact-map">
 	</div>
-	<!-- =========================
+	 =========================
 		END CONTACTS MAP
 	============================== -->
-	
-	<!-- ===================================
-		SUBSCRIBE SECTION
-	======================================== -->
-	<div class="def-section home-subscribe">
-		<div class="container">
-			<div class="row">
-				
-				<!-- === SUBSCRIBE TEXT === -->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 home-subscribe-text animated wow fadeInUp" data-wow-duration=".5s" data-wow-offset="100">
-					<span class="home-subscribe-icon"><i class="flaticon-email114"></i></span>
-					SIGN UP FOR NEWSLETTER TO GET UPDATES AND NEWS
-				</div>
-				
-				<!-- === SUBSCRIBE FORM === -->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 home-subscribe-form animated wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s" data-wow-offset="100">
-					<form>
-						<div class="home-subscribe-form-input">
-							<input type="text" name="subscribe" placeholder="YOUR E-MAIL" />
-						</div>
-						<div class="home-subscribe-form-button">
-							<button><span class="my-btn my-btn-primary">
-								<span class="my-btn-bg-top"></span>
-								<span class="my-btn-bg-bottom"></span>
-								<span class="my-btn-text">
-									SUBSCRIBE
-								</span>
-							</span></button>
-						</div>
-					</form>
-				</div>
-				
-			</div>
-		</div>
-	</div>
-	<!-- ===================================
-		END SUBSCRIBE SECTION
-	======================================== -->
-     
-	
+
 	<!-- ===================================
 		FOOTER
 	======================================== -->

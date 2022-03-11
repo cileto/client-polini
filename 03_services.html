@@ -48,7 +48,7 @@
 	<!-- =========================
 		TOP MAIN NAVBAR
 	============================== -->
-	<div class="main-navbar main-navbar-1">
+	<div class="main-navbar main-navbar-1" id="main-navbar">
 		<div class="container">
 			<div class="row">
                  
@@ -56,10 +56,7 @@
 				 
 				<div class="logo" id="main-logo">
 					<div class="logo-image">
-						<img src="img/logo.png" alt="" />
-					</div>
-					<div class="logo-text">
-						Trans <span class="color-primary">Aero</span>
+						<img src="img/logo.png" alt="Logo" />
 					</div>
 				</div>
 				 
@@ -69,29 +66,6 @@
 					<form>
 						<input type="text" id="main-search" name="main-search" placeholder="Try and type enter..." />
 					</form>
-				</div>
-				 
-				<div class="search-control">
-					<!-- === top search button show === -->
-					<a id="show-search" class="show-search latest" href="#">
-						<div class="my-btn my-btn-primary">
-                            <div class="my-btn-bg-top"></div>
-                            <div class="my-btn-bg-bottom"></div>
-                            <div class="my-btn-text">
-                                <i class="fa fa-search"></i>
-                            </div>
-						</div>
-					</a>
-					<!-- === top search button close === -->
-					<a id="close-search" class="close-search latest" href="#">
-						<div class="my-btn my-btn-primary">
-							<div class="my-btn-bg-top"></div>
-							<div class="my-btn-bg-bottom"></div>
-							<div class="my-btn-text">
-								<i class="fa fa-close"></i>
-							</div>
-						</div>
-					</a>
 				</div>
 				
 				<div class="show-menu-control">
@@ -106,81 +80,34 @@
 						</div>
 					</a>
 				</div>
-				  
+				 
 				<!-- === TOP MENU === -->
 								 
 				<div class="collapse navbar-collapse main-menu main-menu-1" id="main-menu">
 					<ul class="nav navbar-nav">
 											
 						<!-- === top menu item === -->
-						<li class="dropdown">
-							<a data-toggle="dropdown" href="#">Home</a>
-							<ul class="dropdown-menu" role="menu">
-								<li>
-									<a href="index.html">Home 1</a>
-								</li>
-								<li>
-									<a href="02_home.html">Home 2</a>
-								</li>
-							</ul>
-						</li>
-						<li class="main-menu-separator"></li>
-						<!-- === top menu item === -->
-						<li class="active dropdown">
-							<a data-toggle="dropdown" href="#">Service</a>
-							<ul class="dropdown-menu" role="menu">
-								<li class="active">
-									<a href="03_services.html">Service 1</a>
-								</li>
-								<li>
-									<a href="04_services.html">Service 2</a>
-								</li>
-								<li>
-									<a href="05_service_detail.html">Service Details</a>
-								</li>
-							</ul>
+						<li>
+							<a href="index.html">Inicio</a>
 						</li>
 						<li class="main-menu-separator"></li>
 						<!-- === top menu item === -->
 						<li>
-							<a href="06_about.html">About us</a>
-						</li> 
+							<a href="index.html">Servicios</a>
+						</li>
+						<!-- === top menu item === -->
+						<li>
+							<a href="03_services.html">Productos</a>
+						</li>
 						<li class="main-menu-separator"></li>
 						<!-- === top menu item === -->
-						<li class="dropdown">
-							<a data-toggle="dropdown" href="#">Elements</a>
-							<ul class="dropdown-menu" role="menu">
-								<li>
-									<a href="07_typography.html">Typography</a>
-								</li>
-								<li>
-									<a href="08_buttons.html">Buttons</a>
-								</li>
-								<li>
-									<a href="09_progress.html">Progress Bars</a>
-								</li>
-								<li>
-									<a href="10_alerts.html">Alerts</a>
-								</li>
-							</ul>
-						</li> 
-						<li class="main-menu-separator"></li>
-						<!-- === top menu item === -->
-						<li class="dropdown">
-							<a data-toggle="dropdown" href="#">Blog</a>
-							<ul class="dropdown-menu" role="menu">
-								<li>
-									<a href="11_blog.html">Blog items</a>
-								</li>
-								<li>
-									<a href="12_blog_detail.html">Single Post</a>
-								</li>
-							</ul>
+						<li>
+							<a href="06_about.html">Acerca</a>
 						</li> 
 						<li class="main-menu-separator"></li>
 						<!-- === top menu item === -->
 						<li >
-							<a class="latest" href="13_contacts.html">Contacts</a>
+							<a class="latest" href="13_contacts.html">Contacto</a>
 						</li>
 					</ul>
 				</div>
@@ -204,29 +131,9 @@
 				
 				<!-- === PAGE HEADER TITLE === -->
 				<div class="page-header-title">
-					<h2>SERVICES</h2>
+					<h2>PRODUCTOS</h2>
 				</div>
 				
-				<!-- === PAGE HEADER BREADCRUMB === -->
-				<div class="page-header-breadcrumb">
-					<ol class="breadcrumb">
-						<li><a href="index.html">Home</a></li>
-						<li class="active">Services</li>
-					</ol>
-				</div>
-				
-				<!-- === PAGE HEADER BUTTON === -->
-				<div class="page-header-button">
-					<a href="#">
-						<div class="my-btn my-btn-primary">
-							<div class="my-btn-bg-top"></div>
-							<div class="my-btn-bg-bottom"></div>
-							<div class="my-btn-text">
-								GET A FREE QUOTE
-							</div>
-						</div>
-					</a>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -248,12 +155,11 @@
 							<img src="media/service/1.jpg" alt="" />
 						</div>
 						<div class="service-1-title">
-							<h3>road Freight</h3>
+							<h3>COMERCIAL</h3>
 						</div>
 						<div class="service-1-text">
 							<p>
-								Integer congue elit non semper laoreet sed lectus orci posue nisl tempor lacus felis ac mauris. Pellentesque in urna. 
-								Intega vitae felis vel magna posuere vestibulum. Nam rutrum congu diam. Aliquam malesuada mauris et metus.
+								
 							</p>
 						</div>
 						<div class="service-1-button">
@@ -277,7 +183,7 @@
 							<img src="media/service/2.jpg" alt="" />
 						</div>
 						<div class="service-1-title">
-							<h3>AIR FREIGHT</h3>
+							<h3>INDUSTRIAL</h3>
 						</div>
 						<div class="service-1-text">
 							<p>
@@ -306,7 +212,7 @@
 							<img src="media/service/3.jpg" alt="" />
 						</div>
 						<div class="service-1-title">
-							<h3>OCEAN Freight</h3>
+							<h3>BALANZAS ANALITICAS</h3>
 						</div>
 						<div class="service-1-text">
 							<p>
@@ -335,7 +241,7 @@
 							<img src="media/service/4.jpg" alt="" />
 						</div>
 						<div class="service-1-title">
-							<h3>EXPEDITED</h3>
+							<h3>BALANZAS MEDICAS</h3>
 						</div>
 						<div class="service-1-text">
 							<p>
@@ -364,7 +270,7 @@
 							<img src="media/service/5.jpg" alt="" />
 						</div>
 						<div class="service-1-title">
-							<h3>warehousing</h3>
+							<h3>BÁSCULAS CAMIONERAS</h3>
 						</div>
 						<div class="service-1-text">
 							<p>
@@ -393,7 +299,7 @@
 							<img src="media/service/6.jpg" alt="" />
 						</div>
 						<div class="service-1-title">
-							<h3>packaging & storage</h3>
+							<h3>PESAJE DE ANIMALES</h3>
 						</div>
 						<div class="service-1-text">
 							<p>
@@ -414,50 +320,179 @@
 						</div>					
 					</div>
 				</div>
-				
+
+				<!-- === SERVICE ITEM === -->
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="service-1">
+						<div class="service-1-image">
+							<img src="media/service/1.jpg" alt="" />
+						</div>
+						<div class="service-1-title">
+							<h3>INDICADORES DE PESO</h3>
+						</div>
+						<div class="service-1-text">
+							<p>
+								
+							</p>
+						</div>
+						<div class="service-1-button">
+							<a href="05_service_detail.html">
+								<div class="my-btn my-btn-default">
+									<div class="my-btn-bg-top"></div>
+									<div class="my-btn-bg-bottom"></div>
+									<div class="my-btn-text">
+										MORE
+									</div>
+								</div>
+							</a>
+						</div>					
+					</div>
+				</div>
+
+				<!-- === SERVICE ITEM === -->
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="service-1">
+						<div class="service-1-image">
+							<img src="media/service/1.jpg" alt="" />
+						</div>
+						<div class="service-1-title">
+							<h3>CELDAS DE CARGA</h3>
+						</div>
+						<div class="service-1-text">
+							<p>
+								
+							</p>
+						</div>
+						<div class="service-1-button">
+							<a href="05_service_detail.html">
+								<div class="my-btn my-btn-default">
+									<div class="my-btn-bg-top"></div>
+									<div class="my-btn-bg-bottom"></div>
+									<div class="my-btn-text">
+										MORE
+									</div>
+								</div>
+							</a>
+						</div>					
+					</div>
+				</div>
+
+				<!-- === SERVICE ITEM === -->
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="service-1">
+						<div class="service-1-image">
+							<img src="media/service/1.jpg" alt="" />
+						</div>
+						<div class="service-1-title">
+							<h3>PESAS DE PATRÓN PARA CALIBRACIÓN</h3>
+						</div>
+						<div class="service-1-text">
+							<p>
+								
+							</p>
+						</div>
+						<div class="service-1-button">
+							<a href="05_service_detail.html">
+								<div class="my-btn my-btn-default">
+									<div class="my-btn-bg-top"></div>
+									<div class="my-btn-bg-bottom"></div>
+									<div class="my-btn-text">
+										MORE
+									</div>
+								</div>
+							</a>
+						</div>					
+					</div>
+				</div>
+
+				<!-- === SERVICE ITEM === -->
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="service-1">
+						<div class="service-1-image">
+							<img src="media/service/1.jpg" alt="" />
+						</div>
+						<div class="service-1-title">
+							<h3>EQUIPO DE LABORATORIO</h3>
+						</div>
+						<div class="service-1-text">
+							<p>
+								
+							</p>
+						</div>
+						<div class="service-1-button">
+							<a href="05_service_detail.html">
+								<div class="my-btn my-btn-default">
+									<div class="my-btn-bg-top"></div>
+									<div class="my-btn-bg-bottom"></div>
+									<div class="my-btn-text">
+										MORE
+									</div>
+								</div>
+							</a>
+						</div>					
+					</div>
+				</div>
+
+				<!-- === SERVICE ITEM === -->
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="service-1">
+						<div class="service-1-image">
+							<img src="media/service/1.jpg" alt="" />
+						</div>
+						<div class="service-1-title">
+							<h3>EQUIPO ESPECIAL</h3>
+						</div>
+						<div class="service-1-text">
+							<p>
+								
+							</p>
+						</div>
+						<div class="service-1-button">
+							<a href="05_service_detail.html">
+								<div class="my-btn my-btn-default">
+									<div class="my-btn-bg-top"></div>
+									<div class="my-btn-bg-bottom"></div>
+									<div class="my-btn-text">
+										MORE
+									</div>
+								</div>
+							</a>
+						</div>					
+					</div>
+				</div>
+
+				<!-- === SERVICE ITEM === -->
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="service-1">
+						<div class="service-1-image">
+							<img src="media/service/1.jpg" alt="" />
+						</div>
+						<div class="service-1-title">
+							<h3>EQUIPO DE CARNICERIA</h3>
+						</div>
+						<div class="service-1-text">
+							<p>
+								
+							</p>
+						</div>
+						<div class="service-1-button">
+							<a href="05_service_detail.html">
+								<div class="my-btn my-btn-default">
+									<div class="my-btn-bg-top"></div>
+									<div class="my-btn-bg-bottom"></div>
+									<div class="my-btn-text">
+										MORE
+									</div>
+								</div>
+							</a>
+						</div>					
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 	
-	<!-- ===================================
-		SUBSCRIBE SECTION
-	======================================== -->
-	<div class="def-section home-subscribe">
-		<div class="container">
-			<div class="row">
-				
-				<!-- === SUBSCRIBE TEXT === -->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 home-subscribe-text animated wow fadeInUp" data-wow-duration=".5s" data-wow-offset="100">
-					<span class="home-subscribe-icon"><i class="flaticon-email114"></i></span>
-					SIGN UP FOR NEWSLETTER TO GET UPDATES AND NEWS
-				</div>
-				
-				<!-- === SUBSCRIBE FORM === -->
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 home-subscribe-form animated wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s" data-wow-offset="100">
-					<form>
-						<div class="home-subscribe-form-input">
-							<input type="text" name="subscribe" placeholder="YOUR E-MAIL" />
-						</div>
-						<div class="home-subscribe-form-button">
-							<button><span class="my-btn my-btn-primary">
-								<span class="my-btn-bg-top"></span>
-								<span class="my-btn-bg-bottom"></span>
-								<span class="my-btn-text">
-									SUBSCRIBE
-								</span>
-							</span></button>
-						</div>
-					</form>
-				</div>
-				
-			</div>
-		</div>
-	</div>
-	<!-- ===================================
-		END SUBSCRIBE SECTION
-	======================================== -->
-     
-	
+
 	<!-- ===================================
 		FOOTER
 	======================================== -->
