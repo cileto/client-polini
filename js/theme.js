@@ -167,7 +167,7 @@ new WOW().init();
     					this.innerHTML = (num + 3).toFixed(0)
     				}
     			});
-    			$('#num4').animate({ num: 14 - 3 }, {
+    			$('#num4').animate({ num: 30 - 3 }, {
     				duration: 3900,
     				step: function (num){
     					this.innerHTML = (num + 3).toFixed(0)
